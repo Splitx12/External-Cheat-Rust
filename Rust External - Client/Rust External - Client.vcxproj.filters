@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Driver\driver.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{d060546f-168b-42f7-a863-d0c37089eeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{956bc5a2-3e74-48d1-94ee-671fde4b2f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{e3db2d39-8fd2-4a3a-ab2e-40ac20799677}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Of.h" />
+    <ClInclude Include="SDK\BasePlayer.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Math.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h" />
+    <ClInclude Include="SDK\BaseProjectile.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="SDK\Aim.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypt.h" />
+    <ClInclude Include="Vallue.h" />
+    <ClInclude Include="Driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="Overlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectOverlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Dumper.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
